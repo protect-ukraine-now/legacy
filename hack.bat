@@ -1,0 +1,1 @@
+start /max "hack" npm start
