@@ -1,6 +1,8 @@
 import './App.css'
+import useCopy from './useCopy'
 
 export default function App() {
+	useCopy()
 	return (
 		<>
 			<div className="container">
