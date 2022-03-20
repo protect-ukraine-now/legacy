@@ -1,8 +1,7 @@
 import './App.css'
-import useCopy from './useCopy'
+import copyToClipboard from './copyToClipboard'
 
 export default function App() {
-	useCopy()
 	return (
 		<>
 			<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" />
@@ -118,10 +117,10 @@ export default function App() {
 						What we are witnessing is a genocide against the Ukrainian people. We have an ability in this
 						country
 						and allied bases in Europe to stop these murderous attacks from the air.
-						We have a moral obligation to do so. Our words are meant to reinforce President Zelenskyy urgent
+						We have a moral obligation to do so. Our words are meant to reinforce President Zelenskyy's urgent
 						demands
 						for fighter planes.
-						Ukrainian cities are laying in ruins and thousands of civilians are dead and will keep dying because
+						Ukrainian cities are lying in ruins and thousands of civilians are dead and will keep dying because
 						Ukraine is denied fighter jets.
 						<b>These planes are defensive, NOT offensive weapons: they will protect Ukrainian sky from Russian
 						air
@@ -153,7 +152,7 @@ export default function App() {
 						[your name]
 					</div>
 					</div>
-					<div className="copy_btn">
+					<div className="copy_btn" onClick={() => copyToClipboard('.letter_text')}>
 					COPY TO CLIPBOARD
 					</div>
 				</section>
