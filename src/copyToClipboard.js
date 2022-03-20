@@ -1,5 +1,5 @@
 export default function copyToClipboard(selector) {
-    const el = document.querySelector(".letter_text")
+    const el = document.querySelector(selector)
     function listener(e) {
         e.clipboardData.setData("text/html", el?.innerHTML)
         e.clipboardData.setData("text/plain", el?.innerText)

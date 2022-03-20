@@ -1,13 +1,14 @@
 import './App.css'
 import copyToClipboard from './copyToClipboard'
+import { Helmet } from 'react-helmet'
 
 export default function App() {
 	return (
 		<>
-			<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" />
-			<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600;700&amp;display=swap" />
-			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" />
-
+			<Helmet>
+				<script defer src="https://platform-api.sharethis.com/js/sharethis.js#property=623222622d10e5001932a789&product=sop" type="text/javascript"></script>
+				<script defer src="https://www.googletagmanager.com/gtag/js?id=G-QQV97F1V5G&l=dataLayer&cx=c" type="text/javascript"></script>
+			</Helmet>
 			<div className="container">
 				<section className="parts_sec">
 					<div className="name">
@@ -251,8 +252,6 @@ export default function App() {
 					</div>
 				</div>
 			</footer>
-			<script async src="https://platform-api.sharethis.com/js/sharethis.js#property=623222622d10e5001932a789&product=inline-share-buttons"></script>
-			<script async src="https://www.googletagmanager.com/gtag/js?id=G-QQV97F1V5G&l=dataLayer&cx=c"></script>
 			<link rel="icon" type="image/png" href="favicon.png" />
 		</>
 	)
