@@ -46,7 +46,7 @@ header .soc_net a{
     line-height: 68px;
     color: #ffffff;
     font-weight: 700;
-    font-family: "Bebas Neue";
+    font-family: "Bebas Neue", Arial;
     margin-bottom: 25px;
 }
 .main h2{
@@ -55,7 +55,7 @@ header .soc_net a{
     line-height: 98px;
     color: #ffffff;
     font-weight: 700;
-    font-family: "Bebas Neue";
+    font-family: "Bebas Neue", Arial;
 }
 .main a{
     width: 408px;
@@ -247,7 +247,7 @@ header .soc_net a{
     line-height: 57px;
     color: #000000;
     font-weight: 700;
-    font-family: "Bebas Neue";
+    font-family: "Bebas Neue", Arial;
 }
 .save_block>div:nth-child(2){
     font-size: 93px;
@@ -255,7 +255,7 @@ header .soc_net a{
     line-height: 76px;
     color: #000000;
     font-weight: 700;
-    font-family: "Bebas Neue";
+    font-family: "Bebas Neue", Arial;
 }
 .save_block .flag{
     width: 100%;

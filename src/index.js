@@ -1,6 +1,7 @@
 import './index.css'
 import Helmet from 'preact-helmet'
 import copyToClipboard from './copyToClipboard'
+import { FaTwitter, FaInstagram, FaEnvelope } from 'react-icons/fa'
 
 export default function App() {
 	return (
@@ -22,13 +23,13 @@ export default function App() {
 				<div class="container">
 					<div class="soc_net">
 						<a href="https://twitter.com/protectUKRnow" target="_blank">
-							<i class="fa-brands fa-twitter"></i>
+							<FaTwitter />
 						</a>
 						<a href="https://www.instagram.com/protectukrainenow" target="_blank">
-							<i class="fa-brands fa-instagram"></i>
+							<FaInstagram />
 						</a>
 						<a href="mailto:protectukrainenow@gmail.com" target="_blank">
-							<i class="fa-solid fa-envelope"></i>
+							<FaEnvelope />
 						</a>
 					</div>
 				</div>
@@ -243,7 +244,6 @@ export default function App() {
 					</div>
 				</div>
 			</footer>
-			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" />
 		</>
 	)
 }

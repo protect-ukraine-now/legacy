@@ -24,6 +24,7 @@
   "dependencies": {
     "preact": "^10.1.0",
     "preact-helmet": "^4.0.0-alpha-3",
-    "preact-render-to-string": "^5.1.2"
+    "preact-render-to-string": "^5.1.2",
+    "react-icons": "^4.3.1"
   }
 }
