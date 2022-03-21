@@ -6,7 +6,7 @@ export default function App() {
 	return (
 		<>
 			<Helmet>
-				<link rel="icon" type="image/png" href="favicon.png" />
+				<link rel="icon" type="image/png" href="img/favicon.png" />
 				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" />
 				<script defer src="https://platform-api.sharethis.com/js/sharethis.js#property=623222622d10e5001932a789&product=sop" type="text/javascript"></script>
 				<script defer src="https://www.googletagmanager.com/gtag/js?id=G-QQV97F1V5G&l=dataLayer&cx=c" type="text/javascript"></script>
