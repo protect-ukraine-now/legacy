@@ -8,6 +8,7 @@ export default function App() {
 			<Helmet>
 				<script defer src="https://platform-api.sharethis.com/js/sharethis.js#property=623222622d10e5001932a789&product=sop" type="text/javascript"></script>
 				<script defer src="https://www.googletagmanager.com/gtag/js?id=G-QQV97F1V5G&l=dataLayer&cx=c" type="text/javascript"></script>
+				<link rel="icon" type="image/png" href="favicon.ico"></link>
 			</Helmet>
 			<header>
 				<div class="protect_elem">
