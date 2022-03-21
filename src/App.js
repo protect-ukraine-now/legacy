@@ -27,11 +27,11 @@ export default function App() {
 								<ul>
 									<li>
 										<p>1. Click this button if you use iOS (MacOS) or Android</p>
-										<a href="https://resist.bot/petitions/PDRQYD" target="_blank">USE CHAT BOT</a>
+										<a href="https://resist.bot/petitions/PDRQYD" target="_blank" rel="noreferrer">USE CHAT BOT</a>
 									</li>
 									<li>
 										<p>2. If you have Twitter account you can request your representative through chat bot there</p>
-										<a href="https://twitter.com/messages/compose?recipient_id=835740314006511618&text=sign%20PDRQYD" target="_blank">USE TWITTER</a>
+										<a href="https://twitter.com/messages/compose?recipient_id=835740314006511618&text=sign%20PDRQYD" target="_blank" rel="noreferrer">USE TWITTER</a>
 									</li>
 								</ul>
 							</div>
@@ -54,7 +54,7 @@ export default function App() {
 								<p>How to do that?</p>
 								<ul>
 									<li>1. Find your representative in U.S. Congress following this link
-										<a href="https://www.congress.gov/members/find-your-member" target="_blank">www.congress.gov/members/find-your-member</a>
+										<a href="https://www.congress.gov/members/find-your-member" target="_blank" rel="noreferrer">www.congress.gov/members/find-your-member</a>
 									</li>
 									<li>2. Follow your representative website link</li>
 									<li>3. Send the <a href="#emailbody">email</a> using Contact US form</li>
