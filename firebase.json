@@ -19,6 +19,10 @@
           {
             "key": "Link",
             "value": "</assets/main.jpg>; rel=preload; as=image;"
+          },
+          {
+            "key": "Cache-Control",
+            "value": "max-age=60"
           }
         ]
       },
