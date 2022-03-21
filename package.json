@@ -1,12 +1,12 @@
 {
   "private": true,
-  "name": "Protect Ukrain NOW",
+  "name": "protect-ukraine-now",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "preact build",
+    "build": "preact build --no-sw --no-prerender",
     "serve": "sirv build --port 8080 --cors --single",
-    "dev": "preact watch",
+    "dev": "preact watch --no-sw --no-prerender",
     "lint": "eslint src"
   },
   "eslintConfig": {
@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "preact": "^10.1.0",
-    "preact-render-to-string": "^5.1.2",
-    "react-helmet": "^6.1.0"
+    "preact-helmet": "^4.0.0-alpha-3",
+    "preact-render-to-string": "^5.1.2"
   }
 }

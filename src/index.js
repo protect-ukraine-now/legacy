@@ -1,5 +1,5 @@
 import './style'
-import { Helmet } from 'react-helmet'
+import Helmet from 'preact-helmet'
 import copyToClipboard from './copyToClipboard'
 
 export default function App() {
