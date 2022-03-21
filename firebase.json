@@ -18,7 +18,7 @@
         "headers": [
           {
             "key": "Link",
-            "value": "</img/main.jpg>; rel=preload; as=image;"
+            "value": "</assets/main.jpg>; rel=preload; as=image;"
           },
           {
             "key": "Cache-Control",
