@@ -1,1 +1,1 @@
-start /max "hack" npm start
+npm i && start "protect" /max npm run dev
