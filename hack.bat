@@ -1,1 +1,1 @@
-npm i && start "protect" /max npm run dev
+git pull && npm i && start "dev" /max npm run dev
