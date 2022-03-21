@@ -11,7 +11,7 @@ export default function App() {
 					{ defer: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-QQV97F1V5G&l=dataLayer&cx=c', type: 'text/javascript' },
 				]}
 				link={[
-					{ rel: "icon", href: 'favicon.ico', type: 'image/png' }
+					{ rel: "icon", href: 'favicon.ico?1', type: 'image/png' }
 				]}
 			/>
 			<header>
@@ -239,7 +239,7 @@ export default function App() {
 						But now our focus is to help our beautiful Ukraine survive and win.
 					</div>
 					<div className="owners">
-						� Sergey &amp; Galina Lubarsky
+						- Sergey &amp; Galina Lubarsky
 					</div>
 				</div>
 			</footer>
