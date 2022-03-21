@@ -25,6 +25,7 @@
     "preact": "^10.1.0",
     "preact-helmet": "^4.0.0-alpha-3",
     "preact-render-to-string": "^5.1.2",
-    "react-icons": "^4.3.1"
+    "react-icons": "^4.3.1",
+    "react-lite-youtube-embed": "^2.2.1-a"
   }
 }
