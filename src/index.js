@@ -177,7 +177,7 @@ export default function App() {
 						Fighter planes is the essential thing that can save Ukrainian civilians lives!
 					</div>
 					<div className="theatre_img">
-					<img src="assets/mariupol_theatre.png" alt="" />
+					<img src="assets/mariupol_theatre.webp" alt="" />
 					</div>
 					<div className="el_with_border">
 						A satellite of the Mariupol theater from Monday, before it was bombed.
@@ -188,7 +188,7 @@ export default function App() {
 				<section className="news_papers">
 					<ul>
 					<li>
-						<img src="assets/WSJ_Zelenskyy.png" alt="" />
+						<img src="assets/WSJ_Zelenskyy.webp" alt="" />
 						<div className="content">
 						<div className="title">
 							WSJ Opinion - Why Not Victory in Ukraine?
@@ -218,7 +218,7 @@ export default function App() {
 							</b>
 						</div>
 						</div>
-						<img src="assets/Washington_Post.png" alt="" />
+						<img src="assets/Washington_Post.webp" alt="" />
 					</li>
 					</ul>
 				</section>
