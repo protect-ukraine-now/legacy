@@ -2,7 +2,6 @@ import './index.css'
 import Helmet from 'preact-helmet'
 import copyToClipboard from './copyToClipboard'
 import { FaTwitter, FaInstagram, FaEnvelope } from 'react-icons/fa'
-import Bot from './Bot'
 import LiteYouTubeEmbed from 'react-lite-youtube-embed'
 import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css'
 
@@ -64,9 +63,6 @@ export default function App() {
 									<li>
 										<p>2. If you have Twitter account you can request your representative through chat bot there</p>
 										<a href="https://twitter.com/messages/compose?recipient_id=835740314006511618&text=sign%20PDRQYD" target="_blank" rel="noreferrer">USE TWITTER</a>
-									</li>
-									<li>
-										<Bot/>
 									</li>
 								</ul>
 							</div>
@@ -154,7 +150,7 @@ export default function App() {
 						The news that a mother in labor and her unborn baby died after a maternity ward was bombed in Mariupol broke my heart.
 						It is a tragedy that could have been prevented if Ukraine had the planes to defend its sky.
 						I give you my word, I am about to become a single issue voter.
-						My support in any upcoming election will be based on your immediate action to address this gap in Ukraine�s defense.
+						My support in any upcoming election will be based on your immediate action to address this gap in Ukraine's defense.
 						I know, you deal with many requests, but this is an existential need - Ukraine will not survive without your support. 
 						Nothing matters more to me at this moment.
 					</div>
