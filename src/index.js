@@ -95,7 +95,7 @@ export default function App() {
 									</li>
 									<li>2. Select your state by clicking on the map</li>
 									<li>3. Click Contact link below the senator photo</li>
-									<li>4. Fill out the form with personal information and text ans send it <span className="text_bold">(Don’t forget send information to ALL representatives)</span></li>
+									<li>4. Send an <a href="#emailbody">email</a> to your representative <span className="text_bold">(Don’t forget to send information to ALL representatives)</span></li>
 									{/*<li>*/}
 									{/*	<div className="video_el">*/}
 									{/*		<LiteYouTubeEmbed id="nJZG6xwQ8Pw" webp />*/}
