@@ -2,6 +2,7 @@ import './index.css'
 import Helmet from 'preact-helmet'
 import copyToClipboard from './copyToClipboard'
 import { FaTwitter, FaInstagram, FaEnvelope } from 'react-icons/fa'
+import Bot from './Bot'
 import LiteYouTubeEmbed from 'react-lite-youtube-embed'
 import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css'
 
@@ -63,6 +64,9 @@ export default function App() {
 									<li>
 										<p>2. If you have Twitter account you can request your representative through chat bot there</p>
 										<a href="https://twitter.com/messages/compose?recipient_id=835740314006511618&text=sign%20PDRQYD" target="_blank" rel="noreferrer">USE TWITTER</a>
+									</li>
+									<li>
+										<Bot/>
 									</li>
 								</ul>
 							</div>
@@ -127,7 +131,7 @@ export default function App() {
 					<br />
 					<div>
 						Today I am urgently asking you to actively support immediate delivery of Eastern European fighter planes to Ukraine.
-						The brave Ukrainian army and the country�s heroic citizens are winning the war on the ground.
+						The brave Ukrainian army and the country's heroic citizens are winning the war on the ground.
 						The problem is that Ukrainian cities are being destroyed and citizens are being murdered from the air.
 						I am requesting your urgent help in convincing the White House that immediate delivery of MIG planes to Ukraine should be the highest priority in support of a free Ukraine.
 						What we are witnessing is a genocide against the Ukrainian people. 
@@ -188,7 +192,7 @@ export default function App() {
 					<div className="el_with_border">
 						A satellite of the Mariupol theater from Monday, before it was bombed.
 						The word "Children" is written in white on the pavement.
-						Satellite image �2022 Maxar Technologies
+						Satellite image ©2022 Maxar Technologies
 					</div>
 				</section>
 				<section className="news_papers">
@@ -201,12 +205,12 @@ export default function App() {
 						</div>
 						<div className="text">
 							<div>
-								Zelenskyy challenges Biden to do more to defeat Russia�s invasion.
+								Zelenskyy challenges Biden to do more to defeat Russia's invasion.
 							</div>
 							<br />
 							<div>
 								"The hang-up in providing these seems to have been U.S. reluctance to provoke 
-								Mr. Putin with certain high-profile weapons, <b>as with President Biden�s refusal to assist with the transfer of 28 Polish MiG fighters to Ukraine</b>"
+								Mr. Putin with certain high-profile weapons, <b>as with President Biden's refusal to assist with the transfer of 28 Polish MiG fighters to Ukraine</b>"
 							</div>
 						</div>
 						</div>
@@ -215,12 +219,12 @@ export default function App() {
 						<div className="content">
 						<div className="title">
 							The Washington Post Opinion 
-							- We can�t let Putin�s threats deter us from supplying Ukrainians with fighter planes
+							- We can't let Putin's threats deter us from supplying Ukrainians with fighter planes
 						</div>
 						<div className="text">
 							<b>
-								"We shouldn�t let an aggressor veto aid to his victims. 
-								If the Ukrainians say they want MiG-29�s, we should provide them."
+								"We shouldn't let an aggressor veto aid to his victims. 
+								If the Ukrainians say they want MiG-29's, we should provide them."
 							</b>
 						</div>
 						</div>
