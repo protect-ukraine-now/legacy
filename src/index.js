@@ -2,7 +2,7 @@ import './index.css'
 import Helmet from 'preact-helmet'
 import copyToClipboard from './copyToClipboard'
 import { FaTwitter, FaInstagram, FaEnvelope } from 'react-icons/fa'
-import LiteYouTubeEmbed from 'react-lite-youtube-embed';
+import LiteYouTubeEmbed from 'react-lite-youtube-embed'
 import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css'
 
 export default function App() {
@@ -12,11 +12,7 @@ export default function App() {
 				script={[
 					{ defer: true, src: 'https://platform-api.sharethis.com/js/sharethis.js#property=623222622d10e5001932a789&product=sop', type: "text/javascript" },
 					{ defer: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-QQV97F1V5G&l=dataLayer&cx=c', type: 'text/javascript' },
-					{ src: 'https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.3.1/lite-youtube.js', type: "module" },
 				]}
-				// link={[
-				// 	{ rel: "icon", href: 'favicon.ico?1', type: 'image/png' }
-				// ]}
 			/>
 			<header>
 				<div class="protect_elem">

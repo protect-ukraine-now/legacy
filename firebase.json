@@ -22,12 +22,12 @@
           },
           {
             "key": "Cache-Control",
-            "value": "max-age=1799"
+            "value": "max-age=1800"
           }
         ]
       },
       {
-        "source": "**/*.@(js|css|ico|map)",
+        "source": "**/*.@(js|css|ico|txt|map)",
         "headers": [
           {
             "key": "Cache-Control",
