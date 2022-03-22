@@ -162,7 +162,7 @@ header .soc_net a {
     float: right;
 }
 
-.right_part p {
+.video_el_note {
     float: right;
     font-size: 20px;
     color: #000000;
@@ -208,6 +208,41 @@ header .soc_net a {
 .part2 .content ul li a {
     margin-bottom: 5px;
     display: inline-block;
+    word-break: break-word;
+}
+
+.part_flex_wrap {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.title_part {
+    width: 100%;
+}
+
+.title_part span:last-child {
+    width: 50%;
+}
+
+.title_part p {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 0 75px;
+}
+
+.part_flex_wrap .right_part,
+.part_flex_wrap .left_part {
+    width: 47%;
+}
+
+.border_block_vertical {
+    height: auto;
+    width: 3px;
+    margin: 60px 2.5% 0;
+}
+
+.text_bold {
+    font-weight: 700;
 }
 
 /*----------------------------------------------------------------------------------------------------*/
@@ -512,20 +547,30 @@ footer .owners {
         display: block;
     }
 
-    .left_part, .right_part {
+    .left_part, .right_part,
+    .part_flex_wrap .right_part,
+    .part_flex_wrap .left_part,
+    .title_part span:last-child {
         width: 100%;
     }
 
     .part .video_el {
         width: 100%;
+        height: auto;
         float: none;
     }
 
-    .right_part p {
+    .video_el_note {
         float: none;
     }
 
     .border_block {
+        margin: 30px auto;
+    }
+
+    .border_block_vertical {
+        height: 3px;
+        width: auto;
         margin: 30px auto;
     }
 

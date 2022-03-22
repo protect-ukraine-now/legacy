@@ -72,35 +72,60 @@ export default function App() {
 								<LiteYouTubeEmbed id="j1Uml7lV_HA" webp />
 								{/* <iframe width={461} height={240} src="https://www.youtube.com/embed/j1Uml7lV_HA" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /> */}
 							</div>
-							<p>Quick Help Video</p>
+							<p className="video_el_note">Quick Help Video</p>
 						</div>
 					</div>
 					<div className="border_block">
-					<span>or</span>
+						<span>or</span>
 					</div>
-					<div className="part part2" id="sendletter">
-						<div className="left_part">
-							<div className="title">
+					<div className="part part2 part_flex_wrap" id="sendletter">
+						<div className="title_part">
+							<div className="title ">
 								<span>2</span>
 								<span>Send the letter to your representative</span>
 							</div>
+							<p>How to do that?</p>
+						</div>
+						<div className="left_part">
 							<div className="content">
-								<p>How to do that?</p>
+								<p>For Senate</p>
 								<ul>
-									<li>1. Find your representative in U.S. Congress following this link
-										<a href="https://www.congress.gov/members/find-your-member" target="_blank" rel="noreferrer">www.congress.gov/members/find-your-member</a>
+									<li>1. Find your senate representative using the link
+										<a href="https://www.senate.gov/states/statesmap.htm" target="_blank" rel="noreferrer">https://www.senate.gov/states/statesmap.htm</a>
 									</li>
-									<li>2. Follow your representative website link</li>
-									<li>3. Send the <a href="#emailbody">email</a> using Contact US form</li>
+									<li>2. Select your state by clicking on the map</li>
+									<li>3. Click Contact link below the senator photo</li>
+									<li>4. Fill out the form with personal information and text ans send it <span className="text_bold">(Don’t forget send information to ALL representatives)</span></li>
+									{/*<li>*/}
+									{/*	<div className="video_el">*/}
+									{/*		<LiteYouTubeEmbed id="nJZG6xwQ8Pw" webp />*/}
+									{/*		/!* <iframe width={461} height={240} src="https://www.youtube.com/embed/nJZG6xwQ8Pw" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /> *!/*/}
+									{/*	</div>*/}
+									{/*	<p className="video_el_note">Quick Help Video</p>*/}
+									{/*</li>*/}
 								</ul>
 							</div>
 						</div>
+						<div className="border_block border_block_vertical"></div>
 						<div className="right_part">
-							<div className="video_el">
-								<LiteYouTubeEmbed id="nJZG6xwQ8Pw" webp />
-								{/* <iframe width={461} height={240} src="https://www.youtube.com/embed/nJZG6xwQ8Pw" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /> */}
+							<div className="content">
+								<p>For House</p>
+								<ul>
+									<li>1. Find your house representatives using the link
+										<a href="https://www.house.gov/representatives/find-your-representative" target="_blank" rel="noreferrer">https://www.house.gov/representatives/find-your-representative</a>
+									</li>
+									<li>2. Enter your zip to find your representatives</li>
+									<li>3. If required - enter you address</li>
+									<li>4. Contact your representatives using envelope below the photo <span className="text_bold">(Don’t forget to send information to ALL representatives)</span></li>
+									{/*<li>*/}
+									{/*	<div className="video_el">*/}
+									{/*		<LiteYouTubeEmbed id="nJZG6xwQ8Pw" webp />*/}
+									{/*		/!* <iframe width={461} height={240} src="https://www.youtube.com/embed/nJZG6xwQ8Pw" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /> *!/*/}
+									{/*	</div>*/}
+									{/*	<p className="video_el_note">Quick Help Video</p>*/}
+									{/*</li>*/}
+								</ul>
 							</div>
-							<p>Quick Help Video</p>
 						</div>
 					</div>
 				</section>
