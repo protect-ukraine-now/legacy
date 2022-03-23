@@ -6,6 +6,10 @@ import LiteYouTubeEmbed from 'react-lite-youtube-embed'
 import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css'
 
 export default function App() {
+	let copy = e => {
+		e.preventDefault()
+		copyToClipboard('.letter_text')
+	}
 	return (
 		<>
 			<Helmet
@@ -38,12 +42,92 @@ export default function App() {
 				<div class="container">
 					<h1>Request your representative to release</h1>
 					<h2>Soviet-made fighter jets to Ukraine</h2>
-					<a href="#usebot">ACT NOW</a>
+					<a href="#act" class="act">ACT NOW</a>
 				</div>
 			</section>
 
 			<div className="container">
-				<section className="parts_sec">
+				<section className="theatre_sec">
+					<div>
+						We are very encouraged and grateful for the overwhelming support following Volodymyr Zelenskyy address to U.S. Congress on March 16th.
+					</div>
+					<br />
+					<div>
+						<b>
+							But Ukraine has a dire and immediate need that has not yet been addressed - protecting Ukrainian civilians from the air attacks.
+							Ukraine needs fighter planes to protect civilians from the air raids.
+						</b>
+					</div>
+					<br />
+					<div>
+						At the time when Zelenskyy was speaking to Congress, Russian plane dropped a powerful bomb on a theater in the besieged city of Mariupol sheltering over a thousand civilians.
+						It happened because there was not a single Ukrainian fighter jet in the sky over Mariupol which could prevent this horrible tragedy.
+						This is happening all over Ukraine on a daily basis. 
+					</div>
+					<div className="theatre_img">
+						<img src="assets/mariupol_theatre.webp" alt="" />
+					</div>
+					<div className="el_with_border">
+						These images provided by Maxar show the Mariupol Drama Theater on March 14, left and on March 19, right.
+						The word "children" is written in large white letters (in Russian) in front of and behind the theater.
+					</div>
+					<br />
+					<div>
+						There are MiG 29 warplanes sitting at allied bases in Europe, ready for an immediate transfer.
+						Ukrainian pilots are well-trained on these warplanes and can use them to stop these murderous attacks from the air tonight!
+					</div>
+					<br />
+					<div>						
+						<b>
+							These planes are defensive, NOT offensive weapons: they will protect Ukrainian sky from Russian air raids.
+						</b>
+					</div>
+					<br />
+					<div>
+						Our words are meant to reinforce President Zelenskyy's urgent demands for fighter planes.
+						Ukrainian cities are lying in ruins and thousands of civilians are dead and will keep dying because Ukraine is denied fighter jets.
+					</div>
+					<a href="#act" class="act">ACT NOW</a>
+				</section>
+				<section className="news_papers">
+					<ul>
+					<li>
+						<img src="assets/WSJ_Zelenskyy.webp" alt="" />
+						<div className="content">
+						<div className="title">
+							WSJ Opinion - Why Not Victory in Ukraine?
+						</div>
+						<div className="text">
+							<div>
+								Zelenskyy challenges Biden to do more to defeat Russia's invasion.
+							</div>
+							<br />
+							<div>
+								"The hang-up in providing these seems to have been U.S. reluctance to provoke 
+								Mr. Putin with certain high-profile weapons, <b>as with President Biden's refusal to assist with the transfer of 28 Polish MiG fighters to Ukraine</b>"
+							</div>
+						</div>
+						</div>
+					</li>
+					<li>                
+						<div className="content">
+						<div className="title">
+							The Washington Post Opinion 
+							- We can't let Putin's threats deter us from supplying Ukrainians with fighter planes
+						</div>
+						<div className="text">
+							<b>
+								"We shouldn't let an aggressor veto aid to his victims. 
+								If the Ukrainians say they want MiG-29's, we should provide them."
+							</b>
+						</div>
+						</div>
+						<img src="assets/Washington_Post.webp" alt="" />
+					</li>
+					</ul>
+				</section>
+
+				<section className="parts_sec" id="act">
 					<div className="name">
 						There are 2 ways to get in touch with your representatives:
 					</div>
@@ -92,7 +176,12 @@ export default function App() {
 									<li>1. Go to the <a href="https://www.senate.gov/states/statesmap.htm" target="_blank" rel="noreferrer">Senate site</a></li>
 									<li>2. Select your state by clicking on the map</li>
 									<li>3. Click Contact link below the senator photo</li>
-									<li>4. Send a <a href="#emailbody">letter</a> to your representative</li>
+									<li>
+										4. Send a letter to your representative 					
+										<a href="#" className="_copy_btn" onClick={copy}>
+											[Copy example text to clipboard]
+										</a>
+									</li>
 									<li>5. Repeat for other representatives as well</li>
 									<li>
 										<div className="video_el">
@@ -109,9 +198,17 @@ export default function App() {
 								<p>For House</p>
 								<ul>
 									<li>1. Go to the <a href="https://www.house.gov/representatives/find-your-representative" target="_blank" rel="noreferrer">House site</a></li>
-									<li>2. Enter your zip to find your representatives. If required - enter you address</li>
-									<li>3. Click envelope below the photo</li>
-									<li>4. Send a <a href="#emailbody">letter</a> to your representative</li>
+									<li>
+										2. Enter your zip to find your representatives
+										{/* . If required - enter you address */}
+									</li>
+									<li>3. Click the envelope below the photo</li>
+									<li>
+										4. Send a letter to your representative 					
+										<a href="#" className="_copy_btn" onClick={copy}>
+											[Copy example text to clipboard]
+										</a>
+									</li>
 									<li>5. Repeat for other representatives as well</li>
 									<li>
 										<div className="video_el">
@@ -138,7 +235,10 @@ export default function App() {
 						</div>
 					</div>
 				</section>
-				<section className="letter_sec" id="emailbody">
+				<section className="authors">
+					<p />
+				</section>
+				<section className="letter_sec" id="emailbody" style={{ position: 'absolute', left: -1e4 }}>
 					<div className="title">Send the following letter to your representative in U.S. Congress</div>
 					<div className="letter_text">
 					<div className="greet">
@@ -166,7 +266,7 @@ export default function App() {
 					</div>
 					<br />
 					<div>
-						We can no longer stand back and watch schools, hospitals, homes, apartment buildings, bomb shelters, every day people of all ages being mass murdered on a daily basis.
+						We can no longer stand back and watch schools, hospitals, homes, apartment buildings, bomb shelters, everyday people of all ages being mass murdered on a daily basis.
 						The news that a mother in labor and her unborn baby died after a maternity ward was bombed in Mariupol broke my heart.
 						It is a tragedy that could have been prevented if Ukraine had the planes to defend its sky.
 						I give you my word, I am about to become a single issue voter.
@@ -180,76 +280,6 @@ export default function App() {
 						[your name]
 					</div>
 					</div>
-					<div className="copy_btn" onClick={() => copyToClipboard('.letter_text')}>
-						COPY TO CLIPBOARD
-					</div>
-				</section>
-				<section className="theatre_sec">
-					<div>
-						We are very encouraged and grateful for the overwhelming support following Volodymyr Zelenskyy address to U.S. Congress on March 16th.
-					</div>
-					<br />
-					<div>
-						<b>
-							But Ukraine has a dire and immediate need that has not yet been addressed - protecting Ukrainian civilians from the air attacks.
-							Ukraine needs fighter planes to protect civilians from the air raids.
-						</b>
-					</div>
-					<br />
-					<div>
-						At the time when Zelenskyy was speaking to Congress, Russian plane dropped a powerful bomb on a theater in the besieged city of Mariupol sheltering over a thousand civilians.
-						It happened because there was not a single Ukrainian fighter jet in the sky over Mariupol which could prevent this horrible tragedy.
-						This is happening all over Ukraine on a daily basis. 
-						Fighter planes is the essential thing that can save Ukrainian civilians lives!
-					</div>
-					<div className="theatre_img">
-					<img src="assets/mariupol_theatre.webp" alt="" />
-					</div>
-					<div className="el_with_border">
-						A satellite of the Mariupol theater from Monday, before it was bombed.
-						The word "Children" is written in white on the pavement.
-						Satellite image ©2022 Maxar Technologies
-					</div>
-				</section>
-				<section className="news_papers">
-					<ul>
-					<li>
-						<img src="assets/WSJ_Zelenskyy.webp" alt="" />
-						<div className="content">
-						<div className="title">
-							WSJ Opinion - Why Not Victory in Ukraine?
-						</div>
-						<div className="text">
-							<div>
-								Zelenskyy challenges Biden to do more to defeat Russia's invasion.
-							</div>
-							<br />
-							<div>
-								"The hang-up in providing these seems to have been U.S. reluctance to provoke 
-								Mr. Putin with certain high-profile weapons, <b>as with President Biden's refusal to assist with the transfer of 28 Polish MiG fighters to Ukraine</b>"
-							</div>
-						</div>
-						</div>
-					</li>
-					<li>                
-						<div className="content">
-						<div className="title">
-							The Washington Post Opinion 
-							- We can't let Putin's threats deter us from supplying Ukrainians with fighter planes
-						</div>
-						<div className="text">
-							<b>
-								"We shouldn't let an aggressor veto aid to his victims. 
-								If the Ukrainians say they want MiG-29's, we should provide them."
-							</b>
-						</div>
-						</div>
-						<img src="assets/Washington_Post.webp" alt="" />
-					</li>
-					</ul>
-				</section>
-				<section className="authors">
-					<p />
 				</section>
 			</div>
 			<footer>
