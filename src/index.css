@@ -279,7 +279,7 @@ header .soc_net a {
 /*}*/
 .social_sec h3 {
     color: #000000;
-    animation: blur 1.75s ease-out infinite;
+    animation: blur 1.5s ease-out infinite;
     text-shadow: 0 0 5px #fff, 0 0 7px #fff;
 }
 
