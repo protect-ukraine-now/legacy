@@ -96,13 +96,12 @@ export default function App() {
 									<li>2. Select your state by clicking on the map</li>
 									<li>3. Click Contact link below the senator photo</li>
 									<li>4. Send an <a href="#emailbody">email</a> to your representative <span className="text_bold">(Don’t forget to send information to ALL representatives)</span></li>
-									{/*<li>*/}
-									{/*	<div className="video_el">*/}
-									{/*		<LiteYouTubeEmbed id="nJZG6xwQ8Pw" webp />*/}
-									{/*		/!* <iframe width={461} height={240} src="https://www.youtube.com/embed/nJZG6xwQ8Pw" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /> *!/*/}
-									{/*	</div>*/}
-									{/*	<p className="video_el_note">Quick Help Video</p>*/}
-									{/*</li>*/}
+									<li>
+										<div className="video_el">
+											<LiteYouTubeEmbed id="ilwO0oezkCU" webp />
+										</div>
+										<p className="video_el_note">Quick Help Video</p>
+									</li>
 								</ul>
 							</div>
 						</div>
@@ -117,13 +116,12 @@ export default function App() {
 									<li>2. Enter your zip to find your representatives</li>
 									<li>3. If required - enter you address</li>
 									<li>4. Contact your representatives using envelope below the photo <span className="text_bold">(Don’t forget to send information to ALL representatives)</span></li>
-									{/*<li>*/}
-									{/*	<div className="video_el">*/}
-									{/*		<LiteYouTubeEmbed id="nJZG6xwQ8Pw" webp />*/}
-									{/*		/!* <iframe width={461} height={240} src="https://www.youtube.com/embed/nJZG6xwQ8Pw" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /> *!/*/}
-									{/*	</div>*/}
-									{/*	<p className="video_el_note">Quick Help Video</p>*/}
-									{/*</li>*/}
+									<li>
+										<div className="video_el">
+											<LiteYouTubeEmbed id="N6Sm8OwcO4g" webp />
+										</div>
+										<p className="video_el_note">Quick Help Video</p>
+									</li>
 								</ul>
 							</div>
 						</div>
