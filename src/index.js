@@ -92,7 +92,7 @@ export default function App() {
 									<li>1. Go to the <a href="https://www.senate.gov/states/statesmap.htm" target="_blank" rel="noreferrer">Senate site</a></li>
 									<li>2. Select your state by clicking on the map</li>
 									<li>3. Click Contact link below the senator photo</li>
-									<li>4. Send an <a href="#emailbody">letter</a> to your representative</li>
+									<li>4. Send a <a href="#emailbody">letter</a> to your representative</li>
 									<li>5. Repeat for other representatives as well</li>
 									<li>
 										<div className="video_el">
@@ -111,7 +111,7 @@ export default function App() {
 									<li>1. Go to the <a href="https://www.house.gov/representatives/find-your-representative" target="_blank" rel="noreferrer">House site</a></li>
 									<li>2. Enter your zip to find your representatives. If required - enter you address</li>
 									<li>3. Click envelope below the photo</li>
-									<li>4. Send an <a href="#emailbody">letter</a> to your representative</li>
+									<li>4. Send a <a href="#emailbody">letter</a> to your representative</li>
 									<li>5. Repeat for other representatives as well</li>
 									<li>
 										<div className="video_el">
