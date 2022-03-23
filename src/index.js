@@ -70,7 +70,6 @@ export default function App() {
 						<div className="right_part">
 							<div className="video_el">
 								<LiteYouTubeEmbed id="j1Uml7lV_HA" webp />
-								{/* <iframe width={461} height={240} src="https://www.youtube.com/embed/j1Uml7lV_HA" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /> */}
 							</div>
 							<p className="video_el_note">Quick Help Video</p>
 						</div>
@@ -90,12 +89,11 @@ export default function App() {
 							<div className="content">
 								<p>For Senate</p>
 								<ul>
-									<li>1. Find your senate representative using the link
-										<a href="https://www.senate.gov/states/statesmap.htm" target="_blank" rel="noreferrer">https://www.senate.gov/states/statesmap.htm</a>
-									</li>
+									<li>1. Go to the <a href="https://www.senate.gov/states/statesmap.htm" target="_blank" rel="noreferrer">Senate site</a></li>
 									<li>2. Select your state by clicking on the map</li>
 									<li>3. Click Contact link below the senator photo</li>
-									<li>4. Send an <a href="#emailbody">email</a> to your representative <span className="text_bold">(Don’t forget to send information to ALL representatives)</span></li>
+									<li>4. Send an <a href="#emailbody">letter</a> to your representative</li>
+									<li>5. Repeat for other representatives as well</li>
 									<li>
 										<div className="video_el">
 											<LiteYouTubeEmbed id="ilwO0oezkCU" webp />
@@ -110,12 +108,11 @@ export default function App() {
 							<div className="content">
 								<p>For House</p>
 								<ul>
-									<li>1. Find your house representatives using the link
-										<a href="https://www.house.gov/representatives/find-your-representative" target="_blank" rel="noreferrer">https://www.house.gov/representatives/find-your-representative</a>
-									</li>
-									<li>2. Enter your zip to find your representatives</li>
-									<li>3. If required - enter you address</li>
-									<li>4. Contact your representatives using envelope below the photo <span className="text_bold">(Don’t forget to send information to ALL representatives)</span></li>
+									<li>1. Go to the <a href="https://www.house.gov/representatives/find-your-representative" target="_blank" rel="noreferrer">House site</a></li>
+									<li>2. Enter your zip to find your representatives. If required - enter you address</li>
+									<li>3. Click envelope below the photo</li>
+									<li>4. Send an <a href="#emailbody">letter</a> to your representative</li>
+									<li>5. Repeat for other representatives as well</li>
 									<li>
 										<div className="video_el">
 											<LiteYouTubeEmbed id="N6Sm8OwcO4g" webp />
