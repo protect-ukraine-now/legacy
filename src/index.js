@@ -1,7 +1,7 @@
 import './index.css'
 import Helmet from 'preact-helmet'
 import copyToClipboard from './copyToClipboard'
-import { FaTwitter, FaInstagram, FaEnvelope } from 'react-icons/fa'
+import { FaTelegram, FaEnvelope } from 'react-icons/fa'
 import LiteYouTubeEmbed from 'react-lite-youtube-embed'
 import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css'
 
@@ -21,11 +21,8 @@ export default function App() {
 				</div>
 				<div class="container">
 					<div class="soc_net">
-						<a href="https://twitter.com/protectUKRnow" target="_blank">
-							<FaTwitter />
-						</a>
-						<a href="https://www.instagram.com/protectukrainenow" target="_blank">
-							<FaInstagram />
+						<a href="https://t.me/ProtectUkraineNow_chat" target="_blank">
+							<FaTelegram />
 						</a>
 						<a href="mailto:protectukrainenow@gmail.com" target="_blank">
 							<FaEnvelope />
