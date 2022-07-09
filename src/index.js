@@ -21,7 +21,7 @@ export default function App() {
 				</div>
 				<div class="container">
 					<div class="soc_net">
-						<a href="https://t.me/ProtectUkraineNow_chat" target="_blank">
+						<a href="https://t.me/ProtectUkraineNow" target="_blank">
 							<FaTelegramPlane />
 						</a>
 						<a href="mailto:protectukrainenow@gmail.com" target="_blank">
